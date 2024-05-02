@@ -1,0 +1,10 @@
+.service {max-width: 1024px;background-color: white;}
+.service-content {
+}
+.service-header {text-align: center;}
+.service-text-price-cntr {display: flex;/* max-width: 90%; */}
+.service-text {text-indent: 30px;text-align: justify;margin: 0;}
+.service-price {display: flex;font-size: x-large;font-weight: bold;margin-left: 10px;}
+.price-sign {margin-right: 3px;}
+.price {
+}

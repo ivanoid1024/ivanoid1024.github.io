@@ -1,0 +1,20 @@
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  margin: 0px auto;
+  /* max-width: 1440px; */
+  /* box-sizing: border-box; */
+  overflow: auto;
+  background-color: hsl(195 53% 99% / 1);
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.section-content {max-width: 1024px;margin: 0 auto;height: 100%;}
+
+h1 {
+  font-size: xx-large;
+  /* font-size: xx-large; */
+}

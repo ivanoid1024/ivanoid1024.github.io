@@ -1,0 +1,133 @@
+.services {
+}
+.services-title {
+    text-align: center;
+}
+.services-cntr {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.service-section {
+}
+.service-section-title-button-cntr {
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    padding: 5px;
+    background-color: #2196f3;
+    border: #3f51b5;
+    border-style: solid;
+    font-weight: bolder;
+    border-width: thin;
+}
+.service-section-title-button-cntr:hover {
+    cursor: pointer;
+}
+.service-section-title {
+}
+.service-section-button {
+    cursor: pointer;
+}
+.service-items-cntr {
+    /* margin-left: 15%; */
+    transform-origin: center top;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+    /* max-width: 75%; */
+    margin-bottom: 5px;
+}
+.service-item-cntr {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-bottom-color: #9e9e9e;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-bottom: 3px;
+}
+
+.service-item-cntr:last-child {
+    border-bottom-style: none;
+}
+
+.service-item-title-price {
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    font-weight: bold;
+}
+.service-item-title {
+    text-transform: uppercase; /* text-decoration: none; */
+}
+.service-item-title a {
+    text-decoration: none;
+    color: black;
+}
+.service-item-price-cntr {
+    display: flex;
+    border-style: groove;
+    padding: 0px 5px;
+    border-color: #03a9f4;
+}
+.service-item-price-sign {
+    margin-right: 5px;
+}
+.service-item-price {
+}
+.service-item-description {
+    font-size: large;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.service-items-cntr-active {
+    /* animation: show 1s; */
+    /* animation-fill-mode: forwards; */
+    /* display: block; */
+    height: 500px;
+}
+
+.service-items-cntr-inactive {
+    /* animation: hide 1s; */
+    /* animation-fill-mode: forwards; */
+    /* display: none; */
+    height: 0;
+}
+
+@keyframes show {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+@keyframes hide {
+    0% {
+        transform: scaleY(1);
+    }
+    100% {
+        transform: scaleY(0);
+    }
+}
+
+@media all {
+    .service-items-cntr {
+        margin-left: 15%;
+    }
+
+    .service-section-title-button-cntr {
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+    .service-items-cntr {
+        margin: 5px 10px;
+    }
+
+    .service-section-title-button-cntr {
+        font-size: xx-large;
+    }
+}

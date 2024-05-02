@@ -1,0 +1,7 @@
+.about {
+    background-color: hsl(0 7% 99% / 1);
+}
+.about-content {/* box-sizing: content-box; */overflow: auto;}
+.about-header {text-align: center;/* box-sizing: border-box; *//* overflow: auto; */}
+.about-text {padding: 0px 20px;text-indent: 30px;text-align: justify;font-size: large;}
+
