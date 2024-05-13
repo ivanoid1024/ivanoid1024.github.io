@@ -3,10 +3,16 @@
     /* max-width: 1440px; */
     /* display: flex; */
     /* justify-content: center; */
-    background-color: lightblue;
-    height: 300px;
+    background-color: #9e92ab;
+    height: 350px;
     font-size: x-large;
     margin-top: 60px;
+    background-image: url(../assets/banner_5.png);
+    background-repeat: no-repeat;
+    background-position: 50% 42%;
+    background-size: 100% auto;
+    background-size: cover;
+    background-blend-mode: soft-light;
 }
 .banner-content {
     display: flex;
@@ -14,6 +20,8 @@
     justify-content: center;
     text-align: center;
     height: 100%;
+    text-shadow: 1px 1px white;
+    /* -webkit-text-stroke: thin white; */
 }
 .company-name {
     text-align: center;
