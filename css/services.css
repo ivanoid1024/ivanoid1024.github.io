@@ -44,6 +44,7 @@
     border-bottom-style: solid;
     border-bottom-width: thin;
     padding-bottom: 3px;
+    padding-right: 2px;
 }
 
 .service-item-cntr:last-child {
@@ -78,6 +79,7 @@
     font-size: large;
     text-align: justify;
     text-indent: 30px;
+    /* padding-right: 5px; */
 }
 
 .service-items-cntr-active {
